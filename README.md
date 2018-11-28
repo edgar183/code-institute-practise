@@ -13,4 +13,7 @@ all the code institute exurcise examples
 - 11-manipulat_the_dom 
 - 12-sass_scss 
 - 13-svg 
+- 14-method_chaining_sample_code
+- 15-table 
 - 16-ajax-test
+ 
