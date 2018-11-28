@@ -1,0 +1,15 @@
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: #bada55;
+    /*the transition is bouth ways */
+    transition-property: width, background-color; /*what takes place in transition process width and color*/
+    transition-duration: 2s;/*2 seconds*/
+    transition-timing-function: ease-in;
+}
+.box:hover {
+    width: 150px;
+    /*transition-property: width;
+    transition-duration: 2s;*/
+    background-color: #e84610; /*red */
+}

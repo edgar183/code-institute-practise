@@ -1,0 +1,10 @@
+a {
+  color: #e84610;
+  font-size: 16px;
+  text-decoration: none;
+}
+a:hover{
+    color:#000;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
