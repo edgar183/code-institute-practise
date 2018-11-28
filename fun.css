@@ -1,0 +1,48 @@
+.box {
+    background-color: #000;
+    width: 150px;
+    height: 0;
+    margin: 25px;
+    animation-name: growing;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/*keyframes for animation. the naming need sto make sence. and use "from" "to" keywords*/ 
+@keyframes growing {
+    from{
+        height: 0;
+    }
+    to{
+        height: 150px;
+    }
+}
+.ball {
+    background-color: #0799d4;
+    width: 150px;
+    height: 100px;
+    margin: 25px;
+    border-radius:50%;
+    float: right;
+    animation-name: jump;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+@keyframes jump {
+    from{
+        height: 0;
+    }
+    to{
+        height: 100;
+    }
+}
+.box1 {
+    width:100px;
+    height: 100px;
+    background-color: #000;
+    transform: translate(100px, 100px);
+    
+}
