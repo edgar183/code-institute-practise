@@ -1,0 +1,28 @@
+/*
+    Make the div elements 30% of the window size. Now make this change only for the devices that are wider than or equal to 992px
+    
+    Set the margin to 10px on all sides for each column for the devices that are wider than or equal to 992px
+    
+    Keep the full-size width for the devices below the 992px
+    
+    Remove the left and right margin for the devices below the 992px
+    
+    Remember to keep in mind the mobile-first approach
+ */
+ .column{
+     width: 100%;
+    height: 50px;
+    background-color: #000;
+ }
+ @media (max-width: 991px){
+  .column{
+      margin:10px 0;
+      width: 100%;
+    }
+}
+@media (min-width: 992px){
+    .column{
+        margin:10px 10px;
+        width: 30%;
+    }
+}
