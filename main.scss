@@ -1,0 +1,62 @@
+$colors: #aaa,
+#bbb,
+#ccc,
+#ddd;
+/*-------------------------------challange1*/
+
+@mixin box ($size, $color) {
+    width: $size;
+    height: $size/2;
+    background-color: $color;
+}
+
+.box {
+    @include box (200px, #bada55);
+}
+
+/*-------------------------------challange2*/
+
+@each $color in $colors {
+    $i: index($colors, $color);
+    .container-#{$i} {
+        background-color: $color;
+    }
+}
+
+/*-------------------------------challange3*/
+
+%boarder {
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.container {
+    @extend %boarder;
+    width: 1280px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.wrapper {
+    @extend %boarder;
+    float: left;
+    position: relative;
+}
+
+.item {
+    font-size: 14px;
+    font-family: "Sans Pro", sans-serif;
+    font-weight: 700;
+    @extend %boarder;
+}
+/*-------------------------------challange4 */
+
+.container {
+    .listRight {
+        a {
+          &:hover {
+            color: red;    
+          } 
+        }
+    }
+}
