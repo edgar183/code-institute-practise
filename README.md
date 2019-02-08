@@ -16,4 +16,4 @@ all the code institute exurcise examples
 - 14-method_chaining_sample_code
 - 15-table 
 - 16-ajax-test
- 
+- 17-core-python
