@@ -17,3 +17,4 @@ all the code institute exurcise examples
 - 15-table 
 - 16-ajax-test
 - 17-core-python
+- 18-File-I/O
