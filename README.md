@@ -18,3 +18,10 @@ all the code institute exurcise examples
 - 16-ajax-test
 - 17-core-python
 - 18-File-I/O
+
+### git checkout -b new-name
+    - add new branch
+### add remote repo git remote add origin URL
+https://github.com/edgar183/code-institute-practise.git
+
+### push to new branch git push origin new-name
