@@ -104,6 +104,7 @@ def main():
         print(word)
     print("Found %s words" % len(words))
 
-
+# tghe file will be executen only when called from terminal. 
+# when runing unittest file this if statment is alowing to run main file. 
 if __name__ == "__main__":
     main()
