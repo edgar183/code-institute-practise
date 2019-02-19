@@ -21,6 +21,7 @@ all the code institute exurcise examples
 - 19-Flask
 - 20-MySql
 - 21-MySql-with-Python
+- 22-MongoDB
 ### add new branch
     - git checkout -b new-name
 ### add remote repo 
